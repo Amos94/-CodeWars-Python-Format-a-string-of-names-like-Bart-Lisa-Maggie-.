@@ -1,5 +1,6 @@
 # [CodeWars][Python] Format a string of names like Bart, Lisa & Maggie.
 
+https://www.codewars.com/kata/53368a47e38700bd8300030d/solutions/python
 
 Given: an array containing hashes of names
 
@@ -8,14 +9,14 @@ Return: a string formatted as a list of names separated by commas except for the
 Example:
 
 namelist([ {'name': 'Bart'}, {'name': 'Lisa'}, {'name': 'Maggie'} ])
-# returns 'Bart, Lisa & Maggie'
+- returns 'Bart, Lisa & Maggie'
 
 namelist([ {'name': 'Bart'}, {'name': 'Lisa'} ])
-# returns 'Bart & Lisa'
+- returns 'Bart & Lisa'
 
 namelist([ {'name': 'Bart'} ])
-# returns 'Bart'
+- returns 'Bart'
 
 namelist([])
-# returns ''
+- returns ''
 Note: all the hashes are pre-validated and will only contain A-Z, a-z, '-' and '.'.
